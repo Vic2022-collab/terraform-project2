@@ -1,7 +1,7 @@
 variable "region_name" {
  type        = string
  description = "name of region"
- default     = "eu-west-1"
+ default     = "eu-west-2"
 }
 
 
@@ -14,7 +14,7 @@ variable "vpc_cidr" {
 variable "az1" {
  type        = string
  description = "name of az1"
- default     = "eu-west-1a"
+ default     = "eu-west-2a"
 }
 
 variable "sub1_cidr" {
@@ -27,7 +27,7 @@ variable "sub1_cidr" {
 variable "az2" {
  type        = string
  description = "name of az2"
- default     = "eu-west-1b"
+ default     = "eu-west-2b"
 }
 
 variable "sub2_cidr" {
@@ -40,7 +40,7 @@ variable "sub2_cidr" {
 variable "az3" {
  type        = string
  description = "name of az1"
- default     = "eu-west-1c"
+ default     = "eu-west-2c"
 }
 
 variable "sub3_cidr" {
@@ -50,11 +50,6 @@ variable "sub3_cidr" {
 }
 
 
-variable "az1" {
- type        = string
- description = "name of az1"
- default     = "eu-west-1a"
-}
 
 
 
@@ -66,12 +61,6 @@ variable "priv1_cidr" {
 }
 
 
-
-variable "az2" {
- type        = string
- description = "name of az1"
- default     = "eu-west-1b"
-}
 
 variable "priv2_cidr" {
  type        = string
